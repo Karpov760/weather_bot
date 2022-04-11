@@ -26,8 +26,6 @@ def get_weather(city):
 
 def main():
     city = input("Введите город: ")
-    if city == "пермь" or city == "Пермь":
-        city == "perm"
     get_weather(city)
 
 
